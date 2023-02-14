@@ -1,0 +1,156 @@
+*{
+    margin:0; padding:0;
+    outline:none; border:none;
+    text-decoration:none;
+    text-transform:capitalize;
+    box-sizing:border-box;
+}
+body{ 
+  font-family:'Aboreto', cursive;
+}
+.home{
+    align-items:center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/gal.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+.container{
+  padding:0rem 10%;
+  margin-top:3.5rem;
+  margin-bottom:3.5rem;
+ display:flex;
+  gap:2rem;
+  align-items:center;
+  margin-left:120px;
+}
+.home .card{
+  width:18rem;
+  height:22rem;
+  text-align:center;
+  color:white;
+}
+.home .card:hover .card-body h5{
+  text-decoration:underline;
+}
+.home .card:hover .card-body img{
+  transform: scale(1.1);
+}
+.home .cardd-body img{
+  transition: transform .5s ease;
+  margin-bottom:1.2rem;
+}
+.card2 img{
+  margin-bottom:1.8rem;
+  height:6.7rem;
+}
+.home .card-body h5{
+  margin-bottom:1.2rem;
+}
+.card1{
+  background: #00B4DB;  
+background: -webkit-linear-gradient(to bottom, #0083B0, #00B4DB);  
+background: linear-gradient(to bottom, #0083B0, #00B4DB); 
+
+
+}
+.card2{
+  background: #6a3093; 
+background: -webkit-linear-gradient(to left, #a044ff, #6a3093); 
+background: linear-gradient(to left, #a044ff, #6a3093); 
+
+}
+.card3{
+  background: #ec008c;  
+background: -webkit-linear-gradient(to bottom, #fc6767, #ec008c);
+background: linear-gradient(to bottom, #fc6767, #ec008c); 
+
+}
+
+.home .content{
+  margin-left:230px;
+  margin-right:230px;
+  color:white;
+  text-align:center;
+/*   margin-top:6rem; */
+  padding-top:5rem;
+}
+.home .content h3 {
+   padding: 15px  0;
+    font-size:3rem;
+  font-weight:400;
+   
+}
+.home .content span{
+  font-weight:300;
+    font-size:1.5rem;
+    padding: 15px  0;
+    line-height:1.5;
+}
+.home .content p{
+  font-weight:200;
+    font-size:1rem;
+    
+    padding: 15px  0;
+    line-height:1.5;
+}
+@media (max-width:1020px){
+  .container{
+    margin-left:0px;
+     padding:0;
+    gap:1rem;
+  }
+  .home .cardd-body img{
+    height:7rem;
+  }
+  .home .card-body p{
+    font-size:0.8rem;
+  }
+  .home .card-body h5{
+    font-size:1.2rme;
+  }
+  .home .content{
+    margin-left:100px;
+    margin-right:100px;
+  }
+}
+
+@media (max-width:768px){
+  .container{
+    margin-top:0rem;
+    display:block;
+    margin-left:0px;
+    padding:0rem 10%;
+  }
+  .home .content{    
+  padding:2rem 10%;
+/*   margin-top:4rem; */
+    padding-top:6rem;
+  margin-left:0px;
+  margin-right:0px;
+  color:white;
+  text-align:center;
+}
+  .home .card{
+    height:20.5rem;
+    width:100%;
+    margin-bottom:1.8rem;
+  }
+  .home{
+    height:auto;
+    display:block;
+   }
+    .home .content h3{
+        font-size:1.8rem;
+    }
+    .home .content span{
+        font-size:1rem;
+    }
+    .home .content p{
+        font-size:0.7rem;
+    }
+}

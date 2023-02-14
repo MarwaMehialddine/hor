@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  
+  
+  nav{
+    position:fixed;
+    right:0;
+    left:0;
+    top:0;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    min-height:9vh;
+    background:black;
+    border-bottom: 0.5px solid white;
+  }
+  nav .logo{
+    display:flex;
+    align-items:center;
+    color:white;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-size:1.3rem;
+  }
+  nav .logo svg{
+    margin-right:3px;
+    width:20px;
+    height:20px;
+  }
+  nav .logo h4{
+    font-family:'Aboreto', cursive;
+    margin-bottom:0rem;
+  }
+  .nav-links{
+    display:flex;
+    justify-content: space-around;
+    width:40%;
+  }
+  .nav-links li{
+    font-family:'Aboreto', cursive;
+    text-transform:capitalize;
+    list-style:none;
+  }
+  .nav-links a{
+    font-family:'Aboreto', cursive;
+    color:white;
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:1.2rem;
+  }
+  .nav-links a:hover{
+    color:#6495ED;
+  }
+  .logo svg:hover{
+    transform:rotate(340deg);
+    cursor:pointer;
+  }
+  .burger{
+    display:none;
+    cursor:pointer;
+  }
+  .burger div{
+    width:25px;
+    height:3px;
+    background-color:white;
+    margin:5px;
+    transition: all 0.3s ease;
+  }
+  ul{
+    margin-bottom:0rem;
+  }
+  @media (max-width:1024px){
+    .nav-links{
+      width:60%;
+    }
+  }
+  @media (max-width:768px){
+    .logo{
+      margin-right:20px;
+    }
+    body{
+      overflow-x:hidden;
+    }
+    .nav{
+      border-bottom:2px solid white;
+    }
+    .burger{
+      width:25px;
+  /*     position:relative;
+      left:80%;
+      bottom:47px; */
+    }
+    .nav-links{
+      z-index:1;
+      position:absolute;
+      right:0px;
+      height:92vh;
+      top:9vh;
+      background:black;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      width:50%;
+  /*     transform:translateX(100%); */
+      left:-100%;
+      transition : transform 0.5s ease-in;
+    }
+    .nav-links li{
+      margin-right:1.5rem;
+      opacity:0;
+    }
+    .burger{
+      display:block;
+    }
+  }
+  .nav-active{
+  /*   transform:translateX(0%); */
+    left:50%;
+  }
+  @keyframes navLinkFade{
+    from{
+      opacity:0;
+      transform:translateX(50px);
+    }
+    to{
+      opacity:1;
+      transform:translateX(0px);
+    }
+  }
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .toggle .line2{
+    opacity:0;
+  }
+  .toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+  }

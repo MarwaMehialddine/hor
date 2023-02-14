@@ -1,0 +1,95 @@
+.description{
+    width:95%;
+    color:white;
+    padding:0rem 8%;
+    text-align:start;
+  }
+  .description p{
+    line-height:1.6;
+  }
+  .description h2{
+    color:#6495ED;
+  }
+  body{
+    font-family:'Aboreto', cursive;
+  }
+  section img{
+    margin-bottom:1rem;
+    height:30rem;
+    width:50rem;
+    border-radius:5px;
+  }
+  .overview p{
+    padding:10px 5px;
+  }
+  
+  section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/gal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:start;
+    color:white;
+    padding:2rem 10%;
+  
+  }
+  h1{
+    margin-top:6rem;
+    padding:0rem 8%;
+    font-size:2.8rem;
+  }
+  .head{
+    width:95%;
+    padding:2rem 8%;
+  }
+  .overview{  
+    border:1px solid grey;
+    border-radius:10px;
+    background:black;
+    padding:8px 0px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+  }
+  .overview span{
+    color:grey;
+  }
+  .overview p {
+    color:white;
+  }
+  .overview .col-1{
+    padding-left:40px;
+  }
+  @media (max-width:1020px){
+    section img{
+      width:40rem;
+      height:25rem;
+    }
+    h1{
+      font-size:2.2rem;
+    }
+  }
+  @media (max-width:768px){
+    section img{
+      width:20rem;
+      height:15rem;
+    }
+    .head, .description{
+      width:100%;
+    }
+    .overview .col-1{
+      padding-left:0px;
+    }
+    h1{
+      font-size:1.8rem;
+    }
+    .overview{
+      display:block;
+    }
+    .overview p{
+      padding:8px 16px;
+    }
+    .head h2{
+      padding-top:1rem;
+      padding-bottom:1rem;
+    }
+  }

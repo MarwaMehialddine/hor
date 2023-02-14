@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Caveat&family=Charis+SIL:wght@400;700&family=Kdam+Thmor+Pro&family=Merriweather:ital,wght@0,300;1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="nav.css" rel="stylesheet" type="text/css" />
+  <link href="findZ.css" rel="stylesheet" type="text/css" />
+  <link href="footer.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <div class='logo'>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+  <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"/>
+  <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"/>
+  <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+</svg> <h4>ASTROZOD</h4>
+    </div>
+    <ul class='nav-links'>
+      <li><a href='index.html'>home</a></li>
+      <li><a href='index.html'>about us </a></li>
+      <li><a href='find.html'>find yours</a></li>
+      <li><a href='learn.html'>learn</a></li>
+    </ul>
+
+    <div class='burger'>
+      <div class='line1'></div>
+      <div class='line2'></div>
+      <div class='line3'></div>
+    </div>
+  </nav>
+  <section>
+    <h1>find your zodiac sign</h1>
+    <h2>Zodiac sign calculator</h2>
+  <div class='form'>
+<!--           <form id='form'> -->
+    <form id='form'>
+            <select name='select-options' id='months'>
+          <option value='Month'>Month</option>
+              <option value='January'>January</option>
+              <option value='February'>February</option>
+          <option value='March'>March</option>
+              <option value='April'>April</option>
+              <option value='May'>May</option>
+              <option value='June'>June</option>
+              <option value='July'>July</option>
+              <option value='August'>August</option>
+              <option value='September'>September</option>
+              <option value='October'>October</option>
+              <option value='November'>November</option>
+              <option value='December'>December</option>
+        </select>
+        <select name='select-options' id='days'>
+          <option value='Day'>Day</option>
+          <option value='01'>01</option>
+          <option value='02'>02</option>
+          <option value='03'>03</option>
+          <option value='04'>04</option>
+          <option value='05'>05</option>
+          <option value='06'>06</option>
+          <option value='07'>07</option>
+          <option value='08'>08</option>
+          <option value='09'>09</option>
+          <option value='10'>10</option>
+          <option value='11'>11</option>
+          <option value='12'>12</option>
+          <option value='13'>13</option>
+          <option value='14'>14</option>
+          <option value='15'>15</option>
+          <option value='16'>16</option>
+          <option value='17'>17</option>
+          <option value='18'>18</option>
+          <option value='19'>19</option>
+          <option value='20'>20</option>
+          <option value='21'>21</option>
+          <option value='22'>22</option>
+          <option value='23'>23</option>
+          <option value='24'>24</option>
+          <option value='255'>25</option>
+          <option value='26'>26</option>
+          <option value='27'>27</option>
+          <option value='28'>28</option>
+          <option value='29'>29</option>
+          <option value='30'>30</option>
+          <option value='31'>31</option>
+          
+          
+          
+          
+        </select>
+    </form>
+    <button id='btn' type="button" onclick="findSign()">Find out</button>
+        </div>
+    <div class='fetch'>
+      <div class='flex'>
+      <span id='span'>Your zodiac sign is: </span>
+  <p id='text'></p>
+      </div>
+       <img id='img' src='' alt=''>
+    </div>
+  <button id='btn1'>get your daily horoscope</button>
+    <div id='flex' class='flex'>
+      <div class='btnn' id='btnn'>
+      <button type="button" onclick="findYes()">yesterday</button>
+      <button type="button" onclick="findTom()">tomorrow</button>
+      </div>
+    </div>
+  <div class='content' id='content'>
+  </div>
+</section>
+     <footer>
+     <div class='logo'>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+  <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"/>
+  <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"/>
+  <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+</svg> <h4>ASTROZOD</h4>
+    </div>
+   <ul class='menu'>
+     <li><a href='index.html'>home</a></li>
+     <li><a href='index.html'>about us</a></li>
+     <li><a href='learn.html'>learn</a></li>
+     <li><a href='find.html'>find yours</a></li>
+   </ul>
+   <p> © 2023 ASTROZOD. All Rights Reserved</p>
+ </footer>
+    <script>
+      const btn = document.getElementById('btn');
+console.log(btn)
+const text=document.getElementById('text');
+console.log(text)
+const months = document.getElementById('months');
+console.log(months)
+const days = document.getElementById('days');
+console.log(days)
+const form=document.getElementById('form');
+function findSign(){
+  var option = months.options[months.selectedIndex].value;
+  var option1 = days.options[days.selectedIndex].value;
+  const img = document.getElementById('img');
+  console.log('hi')
+  console.log(option);
+  console.log(option1);
+  if( option=='March' && option1<='20'){
+    text.innerHTML='pisces';
+    img.src='images3/z12.png';
+  };
+   if( option=='February' && option1>='19'){
+    text.innerHTML='pisces';
+     img.src='images3/z12.png';
+  };
+   if( option=='August' && option1<='22'){
+    text.innerHTML='leo';
+     img.src='images3/z5.png';
+  };
+   if( option=='July' && option1>='23'){
+    text.innerHTML='leo';
+     img.src='images3/z5.png';
+  };
+   if( option=='March' && option1>='21'){
+    text.innerHTML='aries';
+     img.src='images3/z1.png';
+  };
+   if( option=='April' && option1<='19'){
+    text.innerHTML='aries';
+     img.src='images3/z1.png';
+  };
+   if( option=='November' && option1>='22'){
+    text.innerHTML='sagittarius';
+     img.src='images3/z9.png';
+  };
+   if( option=='December' && option1<='21'){
+    text.innerHTML='sagittarius';
+     img.src='images3/z9.png';
+  };
+  if( option=='January' && option1>='20'){
+    text.innerHTML='aquarius';
+    img.src='images3/z11.png';
+  };
+  if( option=='Febrauary' && option1<='18'){
+    text.innerHTML='aquarius';
+    img.src='images3/z11.png';
+  };
+  if( option=='August' && option1>='23'){
+    text.innerHTML='virgo';
+    img.src='images3/z6.png';
+  };
+  if( option=='September' && option1<='22'){
+    text.innerHTML='virgo';
+    img.src='images3/z6.png';
+  };
+  if( option=='June' && option1>='21'){
+    text.innerHTML='cancer';
+    img.src='images3/z4.png';
+  };
+  if( option=='July' && option1<='22'){
+    text.innerHTML='cancer';
+    img.src='images3/z4.png';
+  };
+  if( option=='September' && option1>='23'){
+    text.innerHTML='libra';
+    img.src='images3/z7.png';
+  };
+  if( option=='October' && option1<='22'){
+    text.innerHTML='libra';
+    img.src='images3/z7.png';
+  };
+  if( option=='October' && option1>='23'){
+    text.innerHTML='scorpio';
+    img.src='images3/z8.png';
+  };
+  if( option=='November' && option1<='21'){
+    text.innerHTML='scorpio';
+    img.src='images3/z8.png';
+  };
+  if( option=='December' && option1>='22'){
+    text.innerHTML='capricorn';
+    img.src='images3/z10.png';
+  };
+  if( option=='January' && option1<='19'){
+    text.innerHTML='capricorn';
+    img.src='images3/z10.png';
+  };
+  if( option=='April' && option1>='20'){
+    text.innerHTML='taurus';
+    img.src='images3/z2.png';
+  };
+  if( option=='May' && option1<='20'){
+    text.innerHTML='taurus';
+    img.src='images3/z2.png';
+  };
+  if( option=='May' && option1>='21'){
+    text.innerHTML='gemini';
+    img.src='images3/z3.png';
+  };
+  if( option=='June' && option1<='20'){
+    text.innerHTML='gemini';
+    img.src='images3/z3.png';
+  };
+  const span = document.getElementById('span');
+  span.style.display='block';
+  console.log(text);
+ const button= document.getElementById('btn1');
+  button.style.display='block';
+};
+const button= document.getElementById('btn1');
+button.addEventListener('click',getInfo);
+function getInfo(){
+  const texty = document.getElementById('text').innerText;
+  const options = {
+	method: 'POST',
+	headers: {
+		'X-RapidAPI-Key': '0ebf23a969msh7622b661fb56b5fp197219jsne9ed193f013f',
+		'X-RapidAPI-Host': 'sameer-kumar-aztro-v1.p.rapidapi.com'
+	}
+};
+
+fetch('https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign='+ texty + '&day=today', options)
+	.then(response => response.json())
+	.then(response => {
+    renderData(response)
+      console.log(response)})
+	.catch(err => console.error(err));
+}
+//get yesterday 
+function findYes(){
+  const texty = document.getElementById('text').innerText;
+  const options = {
+	method: 'POST',
+	headers: {
+		'X-RapidAPI-Key': '0ebf23a969msh7622b661fb56b5fp197219jsne9ed193f013f',
+		'X-RapidAPI-Host': 'sameer-kumar-aztro-v1.p.rapidapi.com'
+	}
+};
+
+fetch('https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign='+ texty + '&day=yesterday', options)
+	.then(response => response.json())
+	.then(response => {
+    renderData(response)
+      console.log(response)})
+	.catch(err => console.error(err));
+}
+//get tomorrow
+function findTom(){
+ const texty = document.getElementById('text').innerText;
+  const options = {
+	method: 'POST',
+	headers: {
+		'X-RapidAPI-Key': '0ebf23a969msh7622b661fb56b5fp197219jsne9ed193f013f',
+		'X-RapidAPI-Host': 'sameer-kumar-aztro-v1.p.rapidapi.com'
+	}
+};
+
+fetch('https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign='+ texty + '&day=tomorrow', options)
+	.then(response => response.json())
+	.then(response => {
+    renderData(response)
+      console.log(response)})
+	.catch(err => console.error(err));
+};
+//rendering data from  fetching
+function renderData(response){
+  const description = response.description;
+  const data = response.current_date;
+  const date = response.date_range;
+  const comp = response.compatibility;
+  const num = response.lucky_number;
+  const tim = response.lucky_time;
+  const mood = response.mood;
+  const color = response.color;
+  const btns = document.getElementById('btnn');
+  console.log(btns)
+  btns.style.display='block';
+  document.getElementById('content').innerHTML=`
+  <p id='datey'> ${data}</p>
+  <p><span>description:   </span>  ${description}</p>
+  <p><span>compatibility:   </span>  ${comp}</p>
+  <p><span>data range:   </span>  ${date}</p>
+  <p><span>lucky number:   </span>  ${num}</p>
+     <p><span>luck time:   </span>  ${tim}</p>
+     <p><span>mood:   </span>  ${mood}</p>
+     <p><span>color:   </span>  ${color}</p>
+     `
+}
+
+
+    </script>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

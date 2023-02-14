@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="75" viewBox="0 0 62 75">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M24.507 19.914L24.507 32.45 24.507 37.264 28.655 34.862 39.496 28.589" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M26.649 23.469L24.364 37.121 31.788 24.607" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M32.644 27.451L24.364 37.121 28.075 26.883M32.358 30.58L24.364 37.121 34.072 33.992M36.641 35.13L24.364 37.121 42.065 37.121M24.364 37.263L20.216 34.863 9.376 28.589" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M22.224 23.469L23.739 32.528 24.507 37.121 22.09 33.047 17.084 24.607" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M16.228 27.451L21.416 33.511 24.508 37.121 22.908 32.708 20.796 26.883M16.513 30.58L20.796 34.084 24.507 37.121 19.868 35.626 14.801 33.992M12.23 35.13L19.654 36.334 24.507 37.121 6.806 37.121" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M24.214 54.301L24.214 36.952 9.225 45.627" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M22.072 50.746L24.356 37.094 16.933 49.609" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M16.077 46.764L24.356 37.094 20.645 47.334" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M16.363 43.636L24.356 37.095 14.65 40.223M12.08 39.085L24.356 37.095M24.356 36.952L39.344 45.627" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M26.497 50.746L24.214 37.094 31.637 49.609" transform="translate(-252 -347) translate(252 347)"/>
+                <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M32.492 46.764L24.213 37.094 27.925 47.334M32.207 43.636L24.214 37.095 33.92 40.223M36.49 39.085L24.214 37.095" transform="translate(-252 -347) translate(252 347)"/>
+                <g>
+                    <path fill="#FFF" fill-rule="nonzero" d="M19.868 37.307c0 2.54 2.067 4.598 4.617 4.598s4.616-2.059 4.616-4.598c0-2.54-2.066-4.599-4.616-4.599s-4.617 2.059-4.617 4.599" transform="translate(-252 -347) translate(252 347)"/>
+                    <path stroke="#FFF" stroke-width=".7" d="M19.868 37.307c0 2.54 2.067 4.598 4.617 4.598s4.616-2.059 4.616-4.598c0-2.54-2.066-4.599-4.616-4.599s-4.617 2.059-4.617 4.599z" transform="translate(-252 -347) translate(252 347)"/>
+                    <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M45.002 74.89H3.518c-1.8 0-3.26-1.455-3.26-3.248V3.505c0-1.793 1.46-3.248 3.26-3.248h41.484c1.802 0 3.26 1.455 3.26 3.248v68.137c0 1.793-1.458 3.248-3.26 3.248z" transform="translate(-252 -347) translate(252 347)"/>
+                    <path stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width=".7" d="M30.917 2.431h13.216c1.075 0 1.948.87 1.948 1.942v12.753M17.88 72.276H4.666c-1.077 0-1.949-.87-1.949-1.941V57.582M48.263 6.172l10.538.652c1.798.111 3.164 1.653 3.052 3.443l-3.546 56.898c-.112 1.79-1.66 3.152-3.457 3.041l-6.587-.408" transform="translate(-252 -347) translate(252 347)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

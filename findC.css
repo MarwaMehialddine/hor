@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  section{
+    text-align:center;
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/gal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:2rem 10%;
+  }
+  p{
+    text-align:center;
+    color:grey;
+    font-size:1.2rem;
+    padding-top:2rem;
+    margin-right:200px;
+    margin-left:200px;
+  }
+  section h1{
+    font-size:2.2rem;
+    padding-top:6.5rem;
+  }
+  h2{
+    font-size:1.4rem;
+    margin-top:2rem;
+  }
+  body{
+    font-family:'Aboreto', cursive;
+  }
+  button:hover{
+    border:none;
+    color:black;
+    background:#6495ED;
+  }
+  .form{
+    margin-top:3rem;
+    display:flex;
+    justify-content:center;
+  }
+  .flex span{
+    font-size:1.2rem;
+    display:none;
+    color:#6495ED;
+  }
+  .flex p{
+    font-size:2rem;
+    color:white;
+    margin-right:0px;
+    margin-left:0px;
+    margin-left:10px;
+    padding-top:0rem;
+  }
+  .flex{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.8rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+  }
+  #btnn{
+    display:none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #btn1{
+    padding:15px 15px;
+    margin-bottom:3rem;
+    margin-top:2rem;
+    display:none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #datey{
+    color:white;
+    text-align:start;
+    font-size:1.6rem;
+  }
+  #content{
+    max-width:40rem;
+    font-size:1.2rem;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:start;
+    padding-bottom:3rem;
+  }
+  #content p{
+    margin-bottom:1rem;
+    line-height:1.5;
+  }
+  #content p span{
+    color:#6495ED;
+  }
+  .form select, button{
+    font-family:'Aboreto', cursive;
+    border-radius:8px;
+    font-size:1.2rem;
+    padding:10px 10px;
+    margin-left:1rem;
+    background:transparent;
+    color:white;
+    outline:none;
+    border:1px solid white;
+  }
+  @media (max-width:768px){
+    button, .form select{
+      font-size:1rem;
+    }
+    section h1{
+      font-size:1.8rem;
+    }
+    h2{
+      font-size:1.2rem;
+    }
+    .flex{
+      display:block;
+    }
+    p{
+      padding-top:1rem;
+    margin-right:0px;
+    margin-left:0px;
+      font-size:1rem;
+    }
+    .flex p{
+      text-align: center;
+      font-size: 1.8rem;
+      padding-top: 1rem;
+    }
+    img{
+      height: 100px;
+      width: 100px;
+    }
+    #btn1{
+      padding:10px 10px;
+    }
+    #content{
+      padding:0rem 2rem;
+      font-size:1rem;
+    }
+  }

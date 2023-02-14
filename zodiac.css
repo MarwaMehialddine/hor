@@ -1,0 +1,148 @@
+.container{
+    margin-right:10px;
+    padding:2rem 13%;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap:1.6rem;
+    
+  }
+  .zodiac h2{
+    line-height:2;
+    color:#6495ED;
+  }
+  section{
+    padding:2rem 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/gal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+  }
+  .box img{
+    width:100px;
+    border-radius:50%;
+    height:100px;
+    border:2px solid white;
+  }
+  .box:hover p{
+    text-decoration:underline;
+  }
+  .box{
+    color:white;
+  }
+  .box p{
+    font-size:1.1rem;
+    font-weight:bold;
+    line-height:2.5;
+  }
+  .box span{
+    margin-bottom:2rem;
+  }
+  body{
+    font-family:'Aboreto', cursive;
+  }
+  .content{
+    padding-top:5rem;
+    margin-left:150px;
+    margin-right:150px;
+    color:white;
+    text-align:center;
+  }
+  .content h1 {
+     padding: 15px  0;
+      font-size:2.2rem;
+    font-weight:400;
+     
+  }
+  .content h3{
+    font-weight:200;
+      font-size:1.1rem;    
+      padding: 15px  0;
+      line-height:1.5;
+  }
+  .content p{
+    color:grey;
+    text-transform:none;
+    font-weight:200;
+      font-size:1.02rem;    
+      padding: 15px  0;
+      line-height:1.5;
+  }
+  .content h3 span{
+    margin-left:16.5rem;
+    text-align:center;
+    align-items: center;
+    display:flex;
+    font-size:0.98rem;
+    
+  }
+  .content h3 span p svg{
+    margin-left:0.25rem;
+    width:1.8rem;
+    height:1.5rem;
+  }
+  .content h3 span p:hover{
+    color:#6495ED;
+    text-shadow:none;
+    text-decoration:underline;
+  }
+  .content h3 span p a{
+    display:flex;
+    align-items:center;
+  }
+  .content h3 span p {
+    font-size:1rem; 
+    color:white;
+    display:flex;
+    align-items:center;
+    text-shadow: 1px 1px 1px white;
+    margin-left:1.5rem;
+  }
+  .zodiac{
+    width:95%;
+    color:white;
+    padding:2rem 8%;
+    text-align:start;
+  }
+  a{
+    color:white;
+    text-decoration:none;
+  }
+  .zodiac p{
+    line-height: 1.5;
+  }
+  .zodiac p a{
+    text-decoration:none;
+    text-decoration:underline;
+    color:#6495ED;
+  }
+  @media (max-width:1020px){
+    .content{
+      margin-left:0px;
+      margin-right:0px;
+    }
+    .content h3 span{
+      display:block;
+      margin-left:0rem;
+    }
+    .content h3 span p{
+      justify-content:center;
+      margin-left:0rem;
+    }
+    .container{
+      grid-template-columns:auto auto auto auto;
+    }
+  }
+  @media (max-width:768px){
+    .content h1{
+      font-size:2rem;
+    }
+    .content h3{
+      font-size:1rem;
+    }
+    .content p{
+      font-size:0.9rem;
+    }
+    .container{
+      grid-template-columns:auto auto;
+    }
+  }

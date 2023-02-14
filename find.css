@@ -1,0 +1,107 @@
+section{
+    text-align:center;
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('gal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  body{
+    font-family:'Aboreto', cursive;
+  }
+  .content{
+    padding:2rem 10%;
+      padding-top:9rem;
+      margin-left:150px;
+      margin-right:150px;
+      color:white;
+      max-width:80%;
+    text-align:center;
+  }
+    .content h1 {
+       padding: 15px  0;
+        font-size:2.2rem;
+      font-weight:400;
+       
+    }
+    .content p{
+      padding-top:2.5rem;
+      color:grey;
+      text-transform:none;
+      font-weight:200;
+        font-size:1.02rem;    
+        padding: 15px  0;
+        line-height:1.5;
+    }
+  .img1, .img2{
+    height:40px;
+  }
+  .img3, .img4{
+    height:60px;
+  }
+  .img7{
+     margin-left:1rem;
+    height:90px;
+  }
+  .img8{
+    height:70px;
+  }
+  .line{
+    display:none;
+    width:100%;
+    background:white;
+    height:1px;
+    margin-top:8rem;
+  }
+  .img5{
+    margin-left:1rem;
+    height:140px;
+  }
+  .img6{
+    height:200px;
+  }
+  section .div{
+    text-align:start;
+    padding-top:1rem;
+    display:flex;
+    align-items:center;
+  }
+  .flex{
+    padding:2rem 10%;
+    display:flex;
+  }
+
+  p{
+    color:white;
+    font-size:2rem;
+  }
+  svg{
+    margin-left:1rem;
+    color:white;
+  }
+  svg:hover{
+    color:#6495ED;
+  }
+@media (max-width:768px){
+    .img{
+        margin-top:4rem;
+    }
+    .flex{
+        display:block;
+        padding:0rem 10%;
+    }
+    .img img{
+        width: 100%;
+    height: 200px;
+    }
+    section .div{
+        justify-content: center;
+    }
+    section .div p{
+        font-size:1.2rem;
+        text-align:center;
+    }
+    .content{
+        margin-left:0;
+        margin-right:0;
+    }
+}

@@ -1,0 +1,306 @@
+.flex{
+    display:flex;
+    align-items:center;
+  }
+  .container1{
+    margin-top:3rem;
+    display:grid;
+    grid-template-columns:auto auto auto;
+    gap:3rem;
+  }
+  .about{
+    margin-top:5rem;
+  }
+  .boox{
+    border-radius:8px;
+    text-align:center;
+    background-image: url('images/cloudd1.jpeg');
+    animation-name:move;
+    animation-duration: 20s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    height:22rem;
+  }
+  .boox:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/cloudd1.jpeg');
+    animation-name:move;
+    animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+  .services #p{
+    margin-left:5rem;
+    margin-right:5rem;
+    text-align:center;
+    margin-top:1.4rem;
+    margin-bottom:2rem;
+    font-size:1.2rem;
+  }
+  .boox:hover p{
+    color:white;
+  }
+  .boox:hover h3{
+    color:#6495ED;
+  }
+  @keyframes move{
+    from{background-position:0,0;}
+    to{background-position:-360,-360;}
+  }
+  .boox img{
+    margin-top:2rem;
+  }
+  .fle .image{
+    float:left;
+  }
+  .flexx{
+    display:flex;
+    flex-direction:column;
+  }
+  .fle .rotate{
+    position:relative;
+    right:540px;
+    bottom:10px;
+    animation-name:rotate;
+      animation-duration: 60s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+  @keyframes rotate{
+      from{ transform: rotate(-360deg); }
+      to{ transform: rotate(360deg); }
+  }
+  .fle .content1{
+    position:relative;
+    bottom:500px;
+    max-width:33rem;
+    left:640px;
+  }
+  .fle .content1 p{
+    font-size:1.3rem;
+    line-height:2;
+    color:grey;
+  }
+  .fle .content1 h2{
+    
+    text-align:start;
+    
+  }
+  .fle .content1 h3{
+    font-size:2rem;
+   color:#6495ED;
+    text-align:start;
+    margin-bottom:2rem;
+  }
+  .boox h3{
+    font-weight:900;
+    margin-top:1.5rem;
+  }
+  .boox p{
+    padding:40px 40px;
+    color:grey;
+    
+  }
+  .service{
+    position:relative;
+    bottom:200px;
+  }
+  .services{
+  /*    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('ss.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/gal4.jpeg');
+  /*   background:black; */
+    color:white;
+  
+  }
+  .services h2{
+    font-size:3rem;
+    margin-bottom:2rem;
+    text-align:center;
+  }
+  .containerr .r1 {
+    margin-bottom:2rem;
+    display:flex;
+    justify-content:space-around;
+    
+  }
+  .containerr{
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+  }
+  .coll .card-body img{
+    margin-left:2.5rem;
+  }
+  .r2 .coll .card-body img{
+    margin-left:3.5rem;
+  }
+  .coll .card-body a{
+    display:flex;
+    align-items:center;
+  }
+  .coll .card-body a:hover{
+    color:#6495ED;
+  }
+  .card-body h5{
+    font-size:1.4rem;
+    line-height:2;
+  }
+  .coll{
+    width:30%;
+  }
+  .cardd .card-body{
+    height: 100%;
+      padding: 20px 20px;
+  }
+  .card-body a{
+    text-decoration:none;
+    color:white;
+  }
+  .services button a{
+    font-family:'Aboreto', cursive;
+    text-decoration:none;
+    color:white;
+  }
+  .services button{
+    border:1px solid white;
+    border-radius:8px;
+    font-size:1.4rem;
+    width:50%;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    background:transparent;
+    padding:10px 10px;
+    margin-top:2rem;
+    
+  }
+  .services button:hover{
+    background:#6495ED;
+    border:none;
+    
+  }
+  .services button:hover a{
+    color:black;
+    
+  }
+  .coll .cardd{
+    border-radius:5px;
+    width:100%;
+    height:7rem;
+    background:#777;
+    color:white;
+  }
+  .coll:last-child .cardd:hover{
+    background:#3B3B3B;
+  }
+  .coll .cardd:hover{
+    background:#3B3B3B;
+  }
+  @media (max-width:768px){
+    .containerr{
+       display:block;
+       margin-left:auto;
+       margin-right:auto;
+       width:50%;
+     }
+    .containerr .r1{
+      display:block;
+    }
+    .r1 .coll{
+      width:100%;
+      margin-bottom:2rem;
+    }
+    .card-body h5{
+      font-size:1.2rem;
+    }
+    .fle .rotate{
+      right: 0px;
+      bottom: 540px;
+      left: 30px;
+    }
+    .fle .content1{
+      bottom: 450px;
+      max-width: 100%;
+      left: 0px;
+    }
+    .fle .content1 h3, .fle .content1 h2, .fle .content1 p{
+      text-align:center;
+    }
+    .container1{
+      display:block;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .flexx{
+      margin-bottom:4rem;
+    }
+    
+  }
+  @media (max-width:550px){
+    .containerr{
+       display:block;
+       margin-left:auto;
+       margin-right:auto;
+       width:50%;
+     }
+    .containerr .r1{
+      display:block;
+    }
+    .r1 .coll{
+      width:100%;
+      margin-bottom:2rem;
+    }
+    .card-body h5{
+      font-size:1.2rem;
+    }
+    .services button{
+      font-size:1.2rem;
+    }
+    .box p{
+      padding: 20px 40px;
+    }
+    .fle .content1 p{
+      font-size:1rem;
+    }
+   .fle .content1 h3{
+    font-size:1.6rem;
+  }
+  .services h2{
+    font-size:2rem;
+  }
+  .fle .content1{
+    bottom: 250px;
+    font-size:1rem;
+  }
+  .fle .image{
+    width:100%;
+  }
+  .fle .image .rotate, .fle .image img{
+    width:100%;
+  }
+  .service{
+    bottom:200px;
+  }
+  .service #p{
+    margin-right:0rem;
+    margin-left:0rem;
+    
+  }
+  .fle .rotate{
+    right:10px;
+    bottom:300px;
+  }
+  .container1{
+    width:100%;
+  }
+  .containerr{
+    margin-top:4rem;
+    width:100%;
+  }
+  }
+  
